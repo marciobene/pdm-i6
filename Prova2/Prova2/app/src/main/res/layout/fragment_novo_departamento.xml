@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NovoDepartamentoFragment"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_nomeDepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/eNomeDepto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome Depto"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/eLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Local"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Local Depto"-->
+        <!--android:id="@+id/text_input_local" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:id="@+id/eLocal"-->
+        <!--android:layout_weight="1" />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravar"
+        android:layout_gravity="center"
+        android:id="@+id/btGravarDepto"
+        android:clickable="true" />
+
+
+
+</LinearLayout>
